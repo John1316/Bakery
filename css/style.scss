@@ -1,0 +1,135 @@
+$bg-main:#ae9768;
+$border-main: 1px solid #ae9768;
+
+.btn-main{
+    background-color: $bg-main;
+    color: #000;
+}
+.border-1{
+    border: $border-main;
+}
+.bg-dark{
+    background-color: #000 !important;
+}
+body{
+    font-family: "Alegreya";
+}
+// navbar
+.navbar{
+    transition: all 1s;
+    &-brand{
+        img{
+            height: 48px;
+        }
+    }
+    .navbar-nav .nav-link {
+        color: #fff !important;
+        padding: 1rem;
+        font-size: 25px;
+        &:hover{
+            border-top: 3px solid $bg-main;
+            color: $bg-main !important;
+        }
+    }
+}
+
+
+// header
+.header{
+    height: 700px;
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    &__caption{
+        &--p{
+            font-size: 22px;
+            margin-bottom: 0;
+        }
+        &--h1{
+            font-size: 80px;
+        }
+        &--h5{
+            font-size: 24px;
+        }
+        &--btns{
+            button{
+                font-size: 20px;
+            }
+            .brown-white{
+                color: #fff;
+                &:hover{
+                    background-color: #fff;
+                    color: #000;
+                }
+            }
+            .white{
+                color: #fff;
+                border: 2px solid #fff;
+                &:hover{
+                    background-color: #fff;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+
+// who
+.who{
+    &__caption{
+        &--p{
+            color: #303030;
+            margin-bottom: 20px;
+        }
+        &--h2{
+            margin-bottom: 20px;
+        }
+        &--ul{
+            margin-bottom: 20px;
+            li{
+                margin-bottom: 20px;
+                font-size: 22px;
+                font-weight: 500;
+                i{
+                    color: $bg-main;
+                    font-size: 26px;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}
+.location{
+    background-color: #f8f8f8;
+    &__caption{
+        &--p{
+            color: #303030;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        &--p2{
+            color: #303030;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        &--h2{
+            margin-bottom: 20px;
+        }
+    }
+}
+// baking
+.baking{
+    &__caption{
+        &--h3{
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        &--p{
+            color: #888;
+            font-size: 17px;
+        }
+    }
+}
+// contact
+.contact{
+    background-color: #f8f8f8;
+}
